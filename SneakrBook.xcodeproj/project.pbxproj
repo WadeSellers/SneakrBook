@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16CCF76519F841CA00EB0B4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CCF76419F841CA00EB0B4C /* main.m */; };
+		16CCF76819F841CA00EB0B4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CCF76719F841CA00EB0B4C /* AppDelegate.m */; };
+		16CCF76B19F841CA00EB0B4C /* SneakrBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16CCF76919F841CA00EB0B4C /* SneakrBook.xcdatamodeld */; };
+		16CCF76E19F841CA00EB0B4C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CCF76D19F841CA00EB0B4C /* MasterViewController.m */; };
+		16CCF77119F841CA00EB0B4C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CCF77019F841CA00EB0B4C /* DetailViewController.m */; };
+		16CCF77419F841CA00EB0B4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CCF77219F841CA00EB0B4C /* Main.storyboard */; };
+		16CCF77619F841CA00EB0B4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16CCF77519F841CA00EB0B4C /* Images.xcassets */; };
+		16CCF77919F841CA00EB0B4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16CCF77719F841CA00EB0B4C /* LaunchScreen.xib */; };
+		16CCF78519F841CA00EB0B4C /* SneakrBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CCF78419F841CA00EB0B4C /* SneakrBookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16CCF77F19F841CA00EB0B4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16CCF75719F841CA00EB0B4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16CCF75E19F841CA00EB0B4C;
+			remoteInfo = SneakrBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16CCF75F19F841CA00EB0B4C /* SneakrBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SneakrBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CCF76319F841CA00EB0B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CCF76419F841CA00EB0B4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16CCF76619F841CA00EB0B4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16CCF76719F841CA00EB0B4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16CCF76A19F841CA00EB0B4C /* SneakrBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SneakrBook.xcdatamodel; sourceTree = "<group>"; };
+		16CCF76C19F841CA00EB0B4C /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		16CCF76D19F841CA00EB0B4C /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		16CCF76F19F841CA00EB0B4C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		16CCF77019F841CA00EB0B4C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		16CCF77319F841CA00EB0B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16CCF77519F841CA00EB0B4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		16CCF77819F841CA00EB0B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		16CCF77E19F841CA00EB0B4C /* SneakrBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SneakrBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CCF78319F841CA00EB0B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CCF78419F841CA00EB0B4C /* SneakrBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SneakrBookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16CCF75C19F841CA00EB0B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16CCF77B19F841CA00EB0B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16CCF75619F841CA00EB0B4C = {
+			isa = PBXGroup;
+			children = (
+				16CCF76119F841CA00EB0B4C /* SneakrBook */,
+				16CCF78119F841CA00EB0B4C /* SneakrBookTests */,
+				16CCF76019F841CA00EB0B4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16CCF76019F841CA00EB0B4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16CCF75F19F841CA00EB0B4C /* SneakrBook.app */,
+				16CCF77E19F841CA00EB0B4C /* SneakrBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16CCF76119F841CA00EB0B4C /* SneakrBook */ = {
+			isa = PBXGroup;
+			children = (
+				16CCF76619F841CA00EB0B4C /* AppDelegate.h */,
+				16CCF76719F841CA00EB0B4C /* AppDelegate.m */,
+				16CCF76C19F841CA00EB0B4C /* MasterViewController.h */,
+				16CCF76D19F841CA00EB0B4C /* MasterViewController.m */,
+				16CCF76F19F841CA00EB0B4C /* DetailViewController.h */,
+				16CCF77019F841CA00EB0B4C /* DetailViewController.m */,
+				16CCF77219F841CA00EB0B4C /* Main.storyboard */,
+				16CCF77519F841CA00EB0B4C /* Images.xcassets */,
+				16CCF77719F841CA00EB0B4C /* LaunchScreen.xib */,
+				16CCF76919F841CA00EB0B4C /* SneakrBook.xcdatamodeld */,
+				16CCF76219F841CA00EB0B4C /* Supporting Files */,
+			);
+			path = SneakrBook;
+			sourceTree = "<group>";
+		};
+		16CCF76219F841CA00EB0B4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16CCF76319F841CA00EB0B4C /* Info.plist */,
+				16CCF76419F841CA00EB0B4C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16CCF78119F841CA00EB0B4C /* SneakrBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				16CCF78419F841CA00EB0B4C /* SneakrBookTests.m */,
+				16CCF78219F841CA00EB0B4C /* Supporting Files */,
+			);
+			path = SneakrBookTests;
+			sourceTree = "<group>";
+		};
+		16CCF78219F841CA00EB0B4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16CCF78319F841CA00EB0B4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16CCF75E19F841CA00EB0B4C /* SneakrBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16CCF78819F841CA00EB0B4C /* Build configuration list for PBXNativeTarget "SneakrBook" */;
+			buildPhases = (
+				16CCF75B19F841CA00EB0B4C /* Sources */,
+				16CCF75C19F841CA00EB0B4C /* Frameworks */,
+				16CCF75D19F841CA00EB0B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SneakrBook;
+			productName = SneakrBook;
+			productReference = 16CCF75F19F841CA00EB0B4C /* SneakrBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16CCF77D19F841CA00EB0B4C /* SneakrBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16CCF78B19F841CA00EB0B4C /* Build configuration list for PBXNativeTarget "SneakrBookTests" */;
+			buildPhases = (
+				16CCF77A19F841CA00EB0B4C /* Sources */,
+				16CCF77B19F841CA00EB0B4C /* Frameworks */,
+				16CCF77C19F841CA00EB0B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16CCF78019F841CA00EB0B4C /* PBXTargetDependency */,
+			);
+			name = SneakrBookTests;
+			productName = SneakrBookTests;
+			productReference = 16CCF77E19F841CA00EB0B4C /* SneakrBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16CCF75719F841CA00EB0B4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Wade Sellers";
+				TargetAttributes = {
+					16CCF75E19F841CA00EB0B4C = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					16CCF77D19F841CA00EB0B4C = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 16CCF75E19F841CA00EB0B4C;
+					};
+				};
+			};
+			buildConfigurationList = 16CCF75A19F841CA00EB0B4C /* Build configuration list for PBXProject "SneakrBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16CCF75619F841CA00EB0B4C;
+			productRefGroup = 16CCF76019F841CA00EB0B4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16CCF75E19F841CA00EB0B4C /* SneakrBook */,
+				16CCF77D19F841CA00EB0B4C /* SneakrBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16CCF75D19F841CA00EB0B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CCF77419F841CA00EB0B4C /* Main.storyboard in Resources */,
+				16CCF77919F841CA00EB0B4C /* LaunchScreen.xib in Resources */,
+				16CCF77619F841CA00EB0B4C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16CCF77C19F841CA00EB0B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16CCF75B19F841CA00EB0B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CCF77119F841CA00EB0B4C /* DetailViewController.m in Sources */,
+				16CCF76E19F841CA00EB0B4C /* MasterViewController.m in Sources */,
+				16CCF76819F841CA00EB0B4C /* AppDelegate.m in Sources */,
+				16CCF76519F841CA00EB0B4C /* main.m in Sources */,
+				16CCF76B19F841CA00EB0B4C /* SneakrBook.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16CCF77A19F841CA00EB0B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CCF78519F841CA00EB0B4C /* SneakrBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16CCF78019F841CA00EB0B4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16CCF75E19F841CA00EB0B4C /* SneakrBook */;
+			targetProxy = 16CCF77F19F841CA00EB0B4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16CCF77219F841CA00EB0B4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16CCF77319F841CA00EB0B4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16CCF77719F841CA00EB0B4C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16CCF77819F841CA00EB0B4C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16CCF78619F841CA00EB0B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16CCF78719F841CA00EB0B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16CCF78919F841CA00EB0B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SneakrBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16CCF78A19F841CA00EB0B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SneakrBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16CCF78C19F841CA00EB0B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SneakrBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SneakrBook.app/SneakrBook";
+			};
+			name = Debug;
+		};
+		16CCF78D19F841CA00EB0B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SneakrBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SneakrBook.app/SneakrBook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16CCF75A19F841CA00EB0B4C /* Build configuration list for PBXProject "SneakrBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CCF78619F841CA00EB0B4C /* Debug */,
+				16CCF78719F841CA00EB0B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16CCF78819F841CA00EB0B4C /* Build configuration list for PBXNativeTarget "SneakrBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CCF78919F841CA00EB0B4C /* Debug */,
+				16CCF78A19F841CA00EB0B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16CCF78B19F841CA00EB0B4C /* Build configuration list for PBXNativeTarget "SneakrBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CCF78C19F841CA00EB0B4C /* Debug */,
+				16CCF78D19F841CA00EB0B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16CCF76919F841CA00EB0B4C /* SneakrBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16CCF76A19F841CA00EB0B4C /* SneakrBook.xcdatamodel */,
+			);
+			currentVersion = 16CCF76A19F841CA00EB0B4C /* SneakrBook.xcdatamodel */;
+			path = SneakrBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16CCF75719F841CA00EB0B4C /* Project object */;
+}
